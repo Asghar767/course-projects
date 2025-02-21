@@ -1,0 +1,83 @@
+.bb {
+    background-color:black;
+    color:white;
+   position: absolute;
+   top: 8px;
+   left: center;
+   font-size: 17px;
+   border-style: double;
+   border-color:white;
+   border-width: thick;
+
+   
+   }
+    body{
+ background-color:#000000;
+ color:white;
+ }
+ th {
+     padding: 5px;
+     background-color:black;
+   }
+   
+   td {
+     padding: 7px;
+     border: 1px solid white;
+   }
+ 
+   tr:hover {
+     background-color: rgb(142, 5, 194);
+     color: black;
+   }
+ 
+ }
+ .kk{
+ position: absolute;
+   top: 8px;
+   right: 16px;
+   font-size: 18px;
+ color: rgb(255, 0, 0);
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+table {
+    border-collapse: collapse;
+}
+H2 {
+    position: center;
+}
+a:link {
+    color: rgb(154, 6, 128);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(240, 84, 84);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(0, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  input[type=submit] {
+    padding:5px 15px; 
+    background:rgb(154, 6, 128); 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

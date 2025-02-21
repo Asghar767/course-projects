@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="tyyli.css">
+    
+</head>
+<body>
+
+    <div class="container">
+    <table id="t">
+        <tr id="mytable">
+          <th>orderid</th>
+          <th>customerid</th>
+          <th>customer</th>
+          <th>invaddr</th>
+          <th>delivaddr</th>
+          <th>deliverydate</th>
+          <th>respsalesperson</th>
+          <th>comment</th>
+          <th>totalprice</th>
+        </tr>
+        <tr id="mytable2">
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        
+    </table>
+</div>
+    
+     <br>
+
+    <table id="t2">
+        
+        <tr >
+            <th>code</th>
+            <th>product</th>
+            <th>description</th>
+            <th>suppliercode</th>
+            <th>qty</th>
+            <th>unit_price</th>
+            <th>shelf_pos</th>
+        </tr>
+
+        
+    </table>
+
+    <br>
+
+    <form action="" method="post">
+
+
+        <h2>KOMMENTTI</h2>
+        <textarea name="" id="mp" cols="80" rows="5"></textarea>
+        <br>
+        
+        <input id="button" type="button" value="MERKKAA TEHDYKSI" onclick="memo()">
+        <input class="text"type="button" value="TULOSTA TILAUS" onclick="printPage()">
+
+
+    </form>
+
+    <script src="TUOTESIVU.js"></script>
+</body>
+</html>
