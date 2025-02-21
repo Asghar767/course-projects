@@ -1,6 +1,6 @@
-# 2048
+# 2048 - AI1
 
-Play around with different algoritms to find achieve the highest score.
+Play around with different algoritms to achieve the highest score.
 
 ## usage
 
